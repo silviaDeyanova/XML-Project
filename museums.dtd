@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT museum_cataloque (museum+)>
+<!ELEMENT museum (name, description, ticket_options, visiting_hours, address)>
+<!ATTLIST museum id ID #REQUIRED>
+<!ATTLIST museum region CDATA #REQUIRED>
+<!ATTLIST museum url CDATA #IMPLIED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT ticket_options (ticket+)>
+<!ELEMENT ticket (type,price)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT visiting_hours (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
