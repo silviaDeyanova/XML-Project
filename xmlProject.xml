@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE museum_cataloque SYSTEM "museums.dtd">
+<!DOCTYPE museum_cataloque SYSTEM "museums.dtd"[
+<!ENTITY NationalHistorical1 SYSTEM "images/НАЦИОНАЛЕНИСТОРИЧЕСКИМУЗЕЙ_1.jpg" NDATA jpg>
+<!ENTITY NationalHistorical2 SYSTEM "images/НАЦИОНАЛЕНИСТОРИЧЕСКИМУЗЕЙ_2.jpg" NDATA jpg>
+<!ENTITY EarthAndPeople1 SYSTEM "images/НАЦИОНАЛЕНМУЗЕЙЗЕМЯТАИХОРАТАСОФИЯ_1.jpg" NDATA jpg>
+<!ENTITY EarthAndPeople2 SYSTEM "images/НАЦИОНАЛЕНМУЗЕЙЗЕМЯТАИХОРАТАСОФИЯ_2.jpg" NDATA jpg>
+<!ENTITY EarthAndPeople3 SYSTEM "images/НАЦИОНАЛЕНМУЗЕЙЗЕМЯТАИХОРАТАСОФИЯ_3.jpg" NDATA jpg>
+<!ENTITY MilitaryHistorical1 SYSTEM "images/НАЦИОНАЛЕНВОЕННОИСТОРИЧЕСКИМУЗЕЙСОФИЯ_1.jpg" NDATA jpg>
+<!ENTITY MilitaryHistorical2 SYSTEM "images/НАЦИОНАЛЕНВОЕННОИСТОРИЧЕСКИМУЗЕЙСОФИЯ_2.jpg" NDATA jpg>
+<!ENTITY NationalArcheological1 SYSTEM "images/НАЦИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙСОФИЯ_1.jpg" NDATA jpg>
+<!ENTITY NationalArcheological2 SYSTEM "images/НАЦИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙСОФИЯ_2.jpg" NDATA jpg>
+<!ENTITY NationalArcheological3 SYSTEM "images/НАЦИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙСОФИЯ_3.jpg" NDATA jpg>
+<!ENTITY RegionalArcheological1 SYSTEM "images/РЕГИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙГРАДПЛОВДИВ_1.jpg" NDATA jpg>
+<!ENTITY RegionalArcheological2 SYSTEM "images/РЕГИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙГРАДПЛОВДИВ_2.jpg" NDATA jpg>
+<!ENTITY Archeological1 SYSTEM "images/АРХЕОЛОГИЧЕСКИМУЗЕЙГРАДСАНДАНСКИ_1.jpg" NDATA jpg>
+<!ENTITY Archeological2 SYSTEM "images/АРХЕОЛОГИЧЕСКИМУЗЕЙГРАДСАНДАНСКИ_2.jpg" NDATA jpg>
+<!ENTITY Figures1 SYSTEM "images/МУЗЕЙНАВОСЪЧНИТЕФИГУРИГРАДВЕЛИКОТЪРНОВО_1.jpg" NDATA jpg>
+<!ENTITY Figures2 SYSTEM "images/МУЗЕЙНАВОСЪЧНИТЕФИГУРИГРАДВЕЛИКОТЪРНОВО_2.jpg" NDATA jpg>
+<!ENTITY Humour1 SYSTEM "images/МУЗЕЙДОМНАХУМОРАИСАТИРАТАГРАДГАБРОВО_1.jpg" NDATA jpg>
+<!ENTITY Humour2 SYSTEM "images/МУЗЕЙДОМНАХУМОРАИСАТИРАТАГРАДГАБРОВО_2.jpg" NDATA jpg>
+<!ENTITY Humour3 SYSTEM "images/МУЗЕЙДОМНАХУМОРАИСАТИРАТАГРАДГАБРОВО_3.jpg" NDATA jpg>
+<!ENTITY Wine1 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_1.jpg" NDATA jpg>
+<!ENTITY Wine2 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_2.jpg" NDATA jpg>
+<!ENTITY Wine3 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_3.jpg" NDATA jpg>
+<!ENTITY Wine4 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_4.jpg" NDATA jpg>
+<!ENTITY Military1 SYSTEM "images/ВОЕННОИСТОРИЧЕСКИМУЗЕИГРАДПЛЕВЕН_1.jpg" NDATA jpg>
+<!ENTITY Military2 SYSTEM "images/ВОЕННОИСТОРИЧЕСКИМУЗЕИГРАДПЛЕВЕН_2.jpg" NDATA jpg>
+]>
 <museum_cataloque>
     <museum id = "m1" region = "София" url = "">
         <name>Национален Исторически музей</name>
@@ -37,6 +63,10 @@
         София 1618
         България
         </address>
+        <images>
+            <image href="NationalHistorical1" />
+            <image href="NationalHistorical2" />
+        </images>
     </museum>
 
     <museum id = "m2" region = "София" url = "">
@@ -74,6 +104,11 @@
             бул. "Черни връх" № 4
             Национален музей “Земята и хората“
         </address>
+        <images>
+            <image href="EarthAndPeople1" />
+            <image href="EarthAndPeople2" />
+            <image href="EarthAndPeople3" />
+        </images>
     </museum>
 
     <museum id = "m3" region = "София" url = "">
@@ -132,6 +167,10 @@
                     България, 1505, гр. София
                     ул. „Черковна“ No 92
         </address>
+        <images>
+            <image href="MilitaryHistorical1" />
+            <image href="MilitaryHistorical2" />
+        </images>
     </museum>
 
     <museum id = "m4" region = "София" url = "">
@@ -180,6 +219,11 @@
         <address>
                             1000 София, ул. „Съборна” 2
         </address>
+        <images>
+            <image href="NationalArcheological1" />
+            <image href="NationalArcheological2" />
+            <image href="NationalArcheological3" />
+        </images>
     </museum>
 
     <museum id = "m5" region = "Пловдив" url = "">
@@ -242,6 +286,10 @@
                 Пловдив 4000
                 пл. „Съединение” № 1
         </address>
+        <images>
+            <image href="RegionalArcheological1" />
+            <image href="RegionalArcheological2" />
+        </images>
     </museum>
 
     <museum id = "m6 " region = "Сандандски" url = "">
@@ -274,6 +322,10 @@
         <address>
                         бул. Георги Димитров 12 , Сандански , 2800
         </address>
+        <images>
+            <image href="Archeological1" />
+            <image href="Archeological2" />
+        </images>
     </museum>
 
     <museum id = "m7" region = "Велико_Търново" url = "">
@@ -311,6 +363,10 @@
         <address>
                                улица Никола Пиколо,5000 ж.к Варуша , Велико Търново
         </address>
+        <images>
+            <image href="Figures1" />
+            <image href="Figures2" />
+        </images>
     </museum>
 
     <museum id = "m8" region = "Габрово" url = "">
@@ -372,6 +428,11 @@
                                         П. К. 104
                                         5300 Габрово, БЪЛГАРИЯ
         </address>
+        <images>
+            <image href="Humour1" />
+            <image href="Humour2" />
+            <image href="Humour3" />
+        </images>
     </museum>
 
     <museum id = "m9" region = "Мелник" url = "">
@@ -401,6 +462,11 @@
         <address>
                                                 Мелник 115, 2820
         </address>
+        <images>
+            <image href="Wine1" />
+            <image href="Wine2" />
+            <image href="Wine3" />
+        </images>
     </museum>
 
     <museum id = "m10" region = "Плевен" url = "">
@@ -451,5 +517,9 @@
                                                         град Плевен - 5800
                                                         ул. "Васил Левски" №157, П.К. 195
         </address>
+        <images>
+            <image href="Military1" />
+            <image href="Military2" />
+        </images>
     </museum>
 </museum_cataloque>

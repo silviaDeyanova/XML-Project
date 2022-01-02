@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT museum_cataloque (museum+)>
-<!ELEMENT museum (name, description, ticket_options, visiting_hours, address)>
+<!ELEMENT museum (name, description, ticket_options, visiting_hours, address, images)>
 <!ATTLIST museum id ID #REQUIRED>
 <!ATTLIST museum region CDATA #REQUIRED>
 <!ATTLIST museum url CDATA #IMPLIED>
@@ -12,3 +12,7 @@
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT visiting_hours (#PCDATA)>
 <!ELEMENT address (#PCDATA)>
+<!ELEMENT images (image+)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image href ENTITY #REQUIRED>
+<!NOTATION jpg PUBLIC "jpg viewer">

@@ -25,6 +25,11 @@
               </xs:element>
               <xs:element name="visiting_hours" type="xs:string" />
               <xs:element name="address" type="xs:string" />
+              <xs:element name="image">
+                <xs:complexType>
+                  <xs:attribute name="href" type="xs:ENTITY"/>
+                </xs:complexType>
+              </xs:element>
             </xs:sequence>
             <xs:attribute name="id" type="xs:string" use="required" />
             <xs:attribute name="region" type="xs:string" use="required" />
