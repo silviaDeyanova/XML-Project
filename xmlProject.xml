@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="museums.xsl"?>
 <!DOCTYPE museum_cataloque SYSTEM "museums.dtd"[
-<!ENTITY NationalHistorical1 SYSTEM "images/НАЦИОНАЛЕНИСТОРИЧЕСКИМУЗЕЙ_1.jpg" NDATA jpg>
-<!ENTITY NationalHistorical2 SYSTEM "images/НАЦИОНАЛЕНИСТОРИЧЕСКИМУЗЕЙ_2.jpg" NDATA jpg>
-<!ENTITY EarthAndPeople1 SYSTEM "images/НАЦИОНАЛЕНМУЗЕЙЗЕМЯТАИХОРАТАСОФИЯ_1.jpg" NDATA jpg>
-<!ENTITY EarthAndPeople2 SYSTEM "images/НАЦИОНАЛЕНМУЗЕЙЗЕМЯТАИХОРАТАСОФИЯ_2.jpg" NDATA jpg>
-<!ENTITY EarthAndPeople3 SYSTEM "images/НАЦИОНАЛЕНМУЗЕЙЗЕМЯТАИХОРАТАСОФИЯ_3.jpg" NDATA jpg>
-<!ENTITY MilitaryHistorical1 SYSTEM "images/НАЦИОНАЛЕНВОЕННОИСТОРИЧЕСКИМУЗЕЙСОФИЯ_1.jpg" NDATA jpg>
-<!ENTITY MilitaryHistorical2 SYSTEM "images/НАЦИОНАЛЕНВОЕННОИСТОРИЧЕСКИМУЗЕЙСОФИЯ_2.jpg" NDATA jpg>
-<!ENTITY NationalArcheological1 SYSTEM "images/НАЦИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙСОФИЯ_1.jpg" NDATA jpg>
-<!ENTITY NationalArcheological2 SYSTEM "images/НАЦИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙСОФИЯ_2.jpg" NDATA jpg>
-<!ENTITY NationalArcheological3 SYSTEM "images/НАЦИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙСОФИЯ_3.jpg" NDATA jpg>
-<!ENTITY RegionalArcheological1 SYSTEM "images/РЕГИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙГРАДПЛОВДИВ_1.jpg" NDATA jpg>
-<!ENTITY RegionalArcheological2 SYSTEM "images/РЕГИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙГРАДПЛОВДИВ_2.jpg" NDATA jpg>
-<!ENTITY Archeological1 SYSTEM "images/АРХЕОЛОГИЧЕСКИМУЗЕЙГРАДСАНДАНСКИ_1.jpg" NDATA jpg>
-<!ENTITY Archeological2 SYSTEM "images/АРХЕОЛОГИЧЕСКИМУЗЕЙГРАДСАНДАНСКИ_2.jpg" NDATA jpg>
-<!ENTITY Figures1 SYSTEM "images/МУЗЕЙНАВОСЪЧНИТЕФИГУРИГРАДВЕЛИКОТЪРНОВО_1.jpg" NDATA jpg>
-<!ENTITY Figures2 SYSTEM "images/МУЗЕЙНАВОСЪЧНИТЕФИГУРИГРАДВЕЛИКОТЪРНОВО_2.jpg" NDATA jpg>
-<!ENTITY Humour1 SYSTEM "images/МУЗЕЙДОМНАХУМОРАИСАТИРАТАГРАДГАБРОВО_1.jpg" NDATA jpg>
-<!ENTITY Humour2 SYSTEM "images/МУЗЕЙДОМНАХУМОРАИСАТИРАТАГРАДГАБРОВО_2.jpg" NDATA jpg>
-<!ENTITY Humour3 SYSTEM "images/МУЗЕЙДОМНАХУМОРАИСАТИРАТАГРАДГАБРОВО_3.jpg" NDATA jpg>
-<!ENTITY Wine1 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_1.jpg" NDATA jpg>
-<!ENTITY Wine2 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_2.jpg" NDATA jpg>
-<!ENTITY Wine3 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_3.jpg" NDATA jpg>
-<!ENTITY Wine4 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_4.jpg" NDATA jpg>
-<!ENTITY Military1 SYSTEM "images/ВОЕННОИСТОРИЧЕСКИМУЗЕИГРАДПЛЕВЕН_1.jpg" NDATA jpg>
-<!ENTITY Military2 SYSTEM "images/ВОЕННОИСТОРИЧЕСКИМУЗЕИГРАДПЛЕВЕН_2.jpg" NDATA jpg>
+<!NOTATION JPG SYSTEM "images/jpeg">
+<!ENTITY NationalHistorical1 SYSTEM "images/НАЦИОНАЛЕНИСТОРИЧЕСКИМУЗЕЙ_1.jpeg" NDATA JPG>
+<!ENTITY NationalHistorical2 SYSTEM "images/НАЦИОНАЛЕНИСТОРИЧЕСКИМУЗЕЙ_2.jpg" NDATA JPG>
+<!ENTITY EarthAndPeople1 SYSTEM "images/НАЦИОНАЛЕНМУЗЕЙЗЕМЯТАИХОРАТАСОФИЯ_1.jpg" NDATA JPG>
+<!ENTITY EarthAndPeople2 SYSTEM "images/НАЦИОНАЛЕНМУЗЕЙЗЕМЯТАИХОРАТАСОФИЯ_2.jpg" NDATA JPG>
+<!ENTITY EarthAndPeople3 SYSTEM "images/НАЦИОНАЛЕНМУЗЕЙЗЕМЯТАИХОРАТАСОФИЯ_3.jpg" NDATA JPG>
+<!ENTITY MilitaryHistorical1 SYSTEM "images/НАЦИОНАЛЕНВОЕННОИСТОРИЧЕСКИМУЗЕЙСОФИЯ_1.jpg" NDATA JPG>
+<!ENTITY MilitaryHistorical2 SYSTEM "images/НАЦИОНАЛЕНВОЕННОИСТОРИЧЕСКИМУЗЕЙСОФИЯ_2.jpg" NDATA JPG>
+<!ENTITY NationalArcheological1 SYSTEM "images/НАЦИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙСОФИЯ_1.jpg" NDATA JPG>
+<!ENTITY NationalArcheological2 SYSTEM "images/НАЦИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙСОФИЯ_2.jpg" NDATA JPG>
+<!ENTITY NationalArcheological3 SYSTEM "images/НАЦИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙСОФИЯ_3.jpg" NDATA JPG>
+<!ENTITY RegionalArcheological1 SYSTEM "images/РЕГИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙГРАДПЛОВДИВ_1.jpg" NDATA JPG>
+<!ENTITY RegionalArcheological2 SYSTEM "images/РЕГИОНАЛЕНАРХЕОЛОГИЧЕСКИМУЗЕЙГРАДПЛОВДИВ_2.jpg" NDATA JPG>
+<!ENTITY Archeological1 SYSTEM "images/АРХЕОЛОГИЧЕСКИМУЗЕЙГРАДСАНДАНСКИ_1.jpg" NDATA JPG>
+<!ENTITY Archeological2 SYSTEM "images/АРХЕОЛОГИЧЕСКИМУЗЕЙГРАДСАНДАНСКИ_2.jpg" NDATA JPG>
+<!ENTITY Figures1 SYSTEM "images/МУЗЕЙНАВОСЪЧНИТЕФИГУРИГРАДВЕЛИКОТЪРНОВО_1.jpg" NDATA JPG>
+<!ENTITY Figures2 SYSTEM "images/МУЗЕЙНАВОСЪЧНИТЕФИГУРИГРАДВЕЛИКОТЪРНОВО_2.jpg" NDATA JPG>
+<!ENTITY Humour1 SYSTEM "images/МУЗЕЙДОМНАХУМОРАИСАТИРАТАГРАДГАБРОВО_1.jpg" NDATA JPG>
+<!ENTITY Humour2 SYSTEM "images/МУЗЕЙДОМНАХУМОРАИСАТИРАТАГРАДГАБРОВО_2.jpg" NDATA JPG>
+<!ENTITY Humour3 SYSTEM "images/МУЗЕЙДОМНАХУМОРАИСАТИРАТАГРАДГАБРОВО_3.jpg" NDATA JPG>
+<!ENTITY Wine1 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_1.jpg" NDATA JPG>
+<!ENTITY Wine2 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_2.jpg" NDATA JPG>
+<!ENTITY Wine3 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_3.jpg" NDATA JPG>
+<!ENTITY Wine4 SYSTEM "images/МУЗЕЙНАВИНОТОГРАДМЕЛНИК_4.jpg" NDATA JPG>
+<!ENTITY Military1 SYSTEM "images/ВОЕННОИСТОРИЧЕСКИМУЗЕИГРАДПЛЕВЕН_1.jpg" NDATA JPG>
+<!ENTITY Military2 SYSTEM "images/ВОЕННОИСТОРИЧЕСКИМУЗЕИГРАДПЛЕВЕН_2.jpg" NDATA JPG>
 ]>
 <museum_cataloque>
-    <museum id = "m1" region = "София" url = "">
+    <museum id = "m1" region = "София">
         <name>Национален Исторически музей</name>
+        <image src="NationalHistorical2" />
         <description>
         Националният исторически музей е създаден на 5 май 1973 г. 
         Той е национална съкровищница на Република България, хранилище на реликви от световен мащаб и един от най-големите исторически музеи на Балканския полуостров.
@@ -63,14 +66,12 @@
         София 1618
         България
         </address>
-        <images>
-            <image href="NationalHistorical1" />
-            <image href="NationalHistorical2" />
-        </images>
+       
     </museum>
 
     <museum id = "m2" region = "София" url = "">
         <name>Национален музей „Земята и хората“</name>
+            <image src="EarthAndPeople1" />
         <description>
             Националният музей „Земята и хората”- София е държавен културен институт с национално значение.
             Извършва общонационални функции по издирване, придобиване, изучаване, опазване и представяне на минералите и минералните ресурси,
@@ -104,15 +105,12 @@
             бул. "Черни връх" № 4
             Национален музей “Земята и хората“
         </address>
-        <images>
-            <image href="EarthAndPeople1" />
-            <image href="EarthAndPeople2" />
-            <image href="EarthAndPeople3" />
-        </images>
+       
     </museum>
 
     <museum id = "m3" region = "София" url = "">
         <name>Национален военноисторически музей</name>
+            <image src="MilitaryHistorical1" />
         <description>
                     Военният музей е третата общонационална музейна структура след разделянето през 1906 г. на първия български Народен музей
                     на два музея – Археологически и Етнографски.Първата експозиция на Главния Военен музей е открита едва на 12 май 1937 г. на ул. Московска № 15,
@@ -167,14 +165,12 @@
                     България, 1505, гр. София
                     ул. „Черковна“ No 92
         </address>
-        <images>
-            <image href="MilitaryHistorical1" />
-            <image href="MilitaryHistorical2" />
-        </images>
+        
     </museum>
 
     <museum id = "m4" region = "София" url = "">
         <name>Национален археологически музей</name>
+            <image src="NationalArcheological1" />
         <description>
                             Музеят е основан като отделна институция през 1893 г. като Народен музей с директор чехът Вацлав Добруски.
                             Седалището е било в бившата джамия, която преди това е помещавала Народната библиотека (1880 – 1893 г.).
@@ -219,15 +215,12 @@
         <address>
                             1000 София, ул. „Съборна” 2
         </address>
-        <images>
-            <image href="NationalArcheological1" />
-            <image href="NationalArcheological2" />
-            <image href="NationalArcheological3" />
-        </images>
+       
     </museum>
 
     <museum id = "m5" region = "Пловдив" url = "">
         <name>Регионален археологически музей</name>
+            <image src="RegionalArcheological1" />
         <description>
                 Регионален археологически музей в Пловдив (РАМ – Пловдив) е една от най-старите културни институции в България. Официално открит през 1882 г.,
                 неговото развитие преминава през етапа на археологическо-нумизматичен кабинет до окончателното му обособяване като Археологически музей през
@@ -286,14 +279,12 @@
                 Пловдив 4000
                 пл. „Съединение” № 1
         </address>
-        <images>
-            <image href="RegionalArcheological1" />
-            <image href="RegionalArcheological2" />
-        </images>
+       
     </museum>
 
     <museum id = "m6 " region = "Сандандски" url = "">
         <name>Археологически музей - град Сандански</name>
+            <image src="Archeological1" />
         <description>
                         Археологическият музей е музей в град Сандански, който експонира и подсигурява извършването на археологическите проучвания в града 
                         и прилежащата му община.Музейното дело в Свети Врач започва през 1936 година със създаването на археологическо дружество „Струма“ и 
@@ -322,14 +313,12 @@
         <address>
                         бул. Георги Димитров 12 , Сандански , 2800
         </address>
-        <images>
-            <image href="Archeological1" />
-            <image href="Archeological2" />
-        </images>
+        
     </museum>
 
     <museum id = "m7" region = "Велико_Търново" url = "">
         <name>Музей на восъчните фигури - Велико Търново</name>
+            <image src="Figures1" />
         <description>Мултимедийният посетителски център „Царевград Търнов“ , популярен като "музей на восъчните фигури", е разположен в близост
                                 до хълма Царевец, в самото сърце на старопрестолния град. В него, под формата на скулптури и стенописи са представени исторически
                                 личности и паметни събития от периода на Второто българско царство. Визуализира се живота на различните социални слоеве в 
@@ -363,14 +352,12 @@
         <address>
                                улица Никола Пиколо,5000 ж.к Варуша , Велико Търново
         </address>
-        <images>
-            <image href="Figures1" />
-            <image href="Figures2" />
-        </images>
+       
     </museum>
 
     <museum id = "m8" region = "Габрово" url = "">
         <name>Музей „Дом на хумора и сатирата“</name>
+            <image src="Humour1" />
         <description>
                                         Домът на хумора и сатирата е музей в Габрово с национално и световно значение.
                                         Той е създаден на „лъжовния“ 1 април (Международния ден на шегата) през 1972 година и е горд наследник на местния фолклорен
@@ -428,15 +415,12 @@
                                         П. К. 104
                                         5300 Габрово, БЪЛГАРИЯ
         </address>
-        <images>
-            <image href="Humour1" />
-            <image href="Humour2" />
-            <image href="Humour3" />
-        </images>
+      
     </museum>
 
     <museum id = "m9" region = "Мелник" url = "">
         <name>Музей на Виното - Мелник</name>
+            <image src="Wine1" />
         <description>
                                                 Един от най-новите музеи в страната. Той отваря врати през 2013год. Намира се близо до центъра на Мелник. 
                                                 В самият музей посетителите могат да научат интересни факти за винопроизводството в страната. Изложени са много предмети
@@ -462,15 +446,12 @@
         <address>
                                                 Мелник 115, 2820
         </address>
-        <images>
-            <image href="Wine1" />
-            <image href="Wine2" />
-            <image href="Wine3" />
-        </images>
+       
     </museum>
 
     <museum id = "m10" region = "Плевен" url = "">
         <name>Военноисторически музей - Град Плевен </name>
+            <image src="Military1" />
         <description> 
                                                         Военноисторически музеи – Плевен са приемник на една от най-старите и авторитетни музейни институции в страната
                                                         – Военноисторическите къщи музеи и паметници в Плевен, Пордим, Бяла и Горна Студена, изградени в периода
@@ -517,9 +498,6 @@
                                                         град Плевен - 5800
                                                         ул. "Васил Левски" №157, П.К. 195
         </address>
-        <images>
-            <image href="Military1" />
-            <image href="Military2" />
-        </images>
+        
     </museum>
 </museum_cataloque>
