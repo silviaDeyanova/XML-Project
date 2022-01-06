@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT museum_cataloque (museum+)>
-<!ELEMENT museum (name, description, ticket_options, visiting_hours, address, images)>
+<!ELEMENT museum (name,image, description, ticket_options, visiting_hours, address)>
 <!ATTLIST museum id ID #REQUIRED>
 <!ATTLIST museum region CDATA #REQUIRED>
 <!ATTLIST museum url CDATA #IMPLIED>
 <!ELEMENT name (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+          src NMTOKEN #REQUIRED>
 <!ELEMENT description (#PCDATA)>
 <!ELEMENT ticket_options (ticket+)>
 <!ELEMENT ticket (type,price)>
@@ -12,7 +15,3 @@
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT visiting_hours (#PCDATA)>
 <!ELEMENT address (#PCDATA)>
-<!ELEMENT images (image+)>
-<!ELEMENT image EMPTY>
-<!ATTLIST image href ENTITY #REQUIRED>
-<!NOTATION jpg PUBLIC "jpg viewer">
